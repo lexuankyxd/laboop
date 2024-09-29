@@ -1,11 +1,11 @@
 import javax.swing.JOptionPane;
 
 public class ChosenOption {
-  public void showDefaultConfirmationOptions(){
+  public static void showDefaultConfirmationOptions(){
     int option = JOptionPane.showConfirmDialog(null, "Do you want first class ticket?");
     JOptionPane.showMessageDialog(null, "You've chosen: " + (option==JOptionPane.YES_OPTION?"Yes":"No"));
   }
-  public void showCustomizedOptions(){
+  public static void showCustomizedOptions(){
     String[] options = {"What", "Who", "Chika Chika", "Slim shady"};
     int input = JOptionPane.showOptionDialog(null, "My name is?", "My question",
             JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null,
@@ -15,6 +15,7 @@ public class ChosenOption {
   }
   public static void main(String[] args) {
 
+    showDefaultConfirmationOptions();
 
   }
 }
