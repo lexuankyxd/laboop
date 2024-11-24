@@ -1,5 +1,0 @@
-Ex 1:
-1) Biến option sẽ có giá trị 0 1 2 tương ứng với yes no cancel. Khi hiển thị message dialog chương trình kiểm tra biến option có bằng yes không, nếu có thì hiện yes còn không thì sẽ hiện no. Vì thế khi chọn cancel message dialog sẽ hiện no.
-2) Chúng ta có thể sử dụng showOptionDialog thay cho confirm dialog để tùy chọn nội dung và số lượng.
-
-Ex 2:
