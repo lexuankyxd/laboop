@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="810611ea-3070-4eb9-941e-97e4762c2a60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Playable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/CompactDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Disc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,7 +53,7 @@
     "Application.src/AimsSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "topic/aims-project/add-media-class",
+    "git-widget-placeholder": "topic/aims-project/playable",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/g0dz/schoolsj/java/lab/AimsProject/src",
     "node.js.detected.package.eslint": "true",
@@ -110,7 +116,7 @@
       <workItem from="1732461276043" duration="866000" />
       <workItem from="1732462272204" duration="545000" />
       <workItem from="1732462820852" duration="4596000" />
-      <workItem from="1732946107447" duration="2858000" />
+      <workItem from="1732946107447" duration="3259000" />
     </task>
     <servers />
   </component>

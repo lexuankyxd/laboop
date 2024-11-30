@@ -20,16 +20,4 @@ public class Disc extends  Media{
         this.director = director;
     }
 
-    public void printDisc() {
-        System.out.println(
-                "Id: " + getId() + ", Title: " + getTitle() + ", Category: " + getCategory() + ", Cost: " + getCost() + ",  Director: " + getDirector()
-                        + ", Length: " + getLength());
-    }
-
-    public void playDemo() {
-        if (getLength() <= 0)
-            System.out.println("Disc can not be played");
-        else
-            System.out.println("Disc demo played.");
-    }
 }

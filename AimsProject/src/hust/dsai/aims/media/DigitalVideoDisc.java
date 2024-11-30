@@ -4,7 +4,7 @@ package hust.dsai.aims.media;
  * hust.dsai.aims.media.DigitalVideoDisc
  */
 
-public class DigitalVideoDisc extends Disc {
+public class DigitalVideoDisc extends Disc implements Playable {
 
 
 
@@ -42,5 +42,10 @@ public class DigitalVideoDisc extends Disc {
     setLength(length);
     setDirector(d);
     setCategory(c);
+  }
+
+  public void play(){
+    System.out.println("Playing DVD: " + this.getTitle());
+    System.out.println("DVD length: " + this.getLength());
   }
 }

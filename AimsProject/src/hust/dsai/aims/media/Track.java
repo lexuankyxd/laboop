@@ -1,6 +1,6 @@
 package hust.dsai.aims.media;
 
-public class Track {
+public class Track implements Playable{
     private String title;
     private int length;
 
@@ -23,5 +23,10 @@ public class Track {
 
     public void setLength(int length) {
         this.length = length;
+    }
+
+    public void play(){
+        System.out.println("Playing track " + title);
+        System.out.println("Track's length " + length);
     }
 }
