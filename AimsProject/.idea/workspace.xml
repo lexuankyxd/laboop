@@ -5,119 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="810611ea-3070-4eb9-941e-97e4762c2a60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AimsProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/none-code-stuff/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/dsai/garbage/ConcatenationInLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/dsai/garbage/GarbageCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/dsai/garbage/NoGarbage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/dsai/garbage/test-100M.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/ChosenOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/DaysLookUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/InputFromKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/MatrixAddition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/Stars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/ans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/lab120226112.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/ChosenOption.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/DaysLookUp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/InputFromKeyboard.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/MatrixAddition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/Sort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/Stars.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/ans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/lab120226112.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/pngs/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/pngs/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/pngs/b4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/pngs/b5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/pngs/bt1.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/out/production/lab1/pngs/bt1.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/b4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/b5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/b6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/bt1.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/otherProject/lab1/pngs/bt1.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/test/StoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/test/TestPassingParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/ChosenOption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/DaysLookUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/InputFromKeyboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/MatrixAddition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/Stars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/ans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/lab1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/lab120226112.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/ChosenOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/DaysLookUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/InputFromKeyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/MatrixAddition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/Stars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/ans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/lab1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/lab120226112.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/pngs/b2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/pngs/b3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/pngs/b4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/pngs/b5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/pngs/bt1.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/pngs/bt1.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/b2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/b3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/b4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/b5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/b6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/bt1.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/pngs/bt1.2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/AdminUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/AimsSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/CardSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/CustomerUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/DigitalVideoDisc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Questions/MindMap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/lab2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/refactor-release-flow.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/screenshot/Pasted image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/screenshot/UML screen shot/Pasted image (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/screenshot/UML screen shot/Pasted image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/screenshot/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/uml/TIDO.asta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/uml/tham khao/Lab2.asta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/uml/tham khao/Lab2ClassDiagram.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,12 +41,13 @@
     "Application.CartTest.executor": "Run",
     "Application.ConcatenationInLoops.executor": "Run",
     "Application.GarbageCollector.executor": "Run",
+    "Application.NoGarbage.executor": "Run",
     "Application.StoreTest.executor": "Run",
     "Application.TestPassingParameter.executor": "Debug",
     "Application.src/AimsSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "refactor/apply-release-flow",
+    "git-widget-placeholder": "feature/demonstrate-release-flow",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/g0dz/schoolsj/java/lab/AimsProject/src",
     "node.js.detected.package.eslint": "true",
@@ -219,7 +108,7 @@
       <workItem from="1730109481436" duration="17572000" />
       <workItem from="1732461276043" duration="866000" />
       <workItem from="1732462272204" duration="545000" />
-      <workItem from="1732462820852" duration="3221000" />
+      <workItem from="1732462820852" duration="4596000" />
     </task>
     <servers />
   </component>
