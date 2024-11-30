@@ -1,6 +1,7 @@
 package hust.dsai.aims.cart;
 
 import hust.dsai.aims.media.DigitalVideoDisc;
+import hust.dsai.aims.media.Media;
 
 import java.util.*;
 
@@ -8,30 +9,24 @@ import java.util.*;
  * hust.dsai.aims.cart.Cart
  */
 public class Cart {
-  public float total;
+  public double total;
   Scanner sc = new Scanner(System.in);
 
-  public final List<DigitalVideoDisc> itemsOrdered = new ArrayList<>();
+  public final List<Media> itemsOrdered = new ArrayList<>();
 
-  public void addDigitalVideoDisc(DigitalVideoDisc item) {
+  public void addMedia(Media item) {
     itemsOrdered.add(item);
-    itemsOrdered.get(0).printDisc();
     System.out.println("The cart now has " + itemsOrdered.size() + " items.");
   }
 
-  public void addDigitalVideoDisc(DigitalVideoDisc item1, DigitalVideoDisc item2) {
+  public void addMedia(Media item1, Media item2) {
     itemsOrdered.add(item1);
-    itemsOrdered.get(0).printDisc();
     itemsOrdered.add(item2);
-    itemsOrdered.get(0).printDisc();
     System.out.println("The cart now has " + itemsOrdered.size() + " items.");
   }
 
-  public void addDigitalVideoDisc(DigitalVideoDisc[] items) {
-    for (DigitalVideoDisc item : items) {
-      itemsOrdered.add(item);
-      itemsOrdered.get(0).printDisc();
-    }
+  public void addMedia(Media[] items) {
+    itemsOrdered.addAll(Arrays.asList(items));
     System.out.println("The cart now has " + itemsOrdered.size() + " items.");
   }
 
@@ -42,48 +37,44 @@ public class Cart {
 
   public void totalCost() {
     total = 0;
-    for (DigitalVideoDisc item : this.itemsOrdered)
+    for (Media item : this.itemsOrdered)
       total += item.getCost();
   }
 
   public void printCart() {
     System.out.println("The cart content: " + itemsOrdered.size());
-    for (DigitalVideoDisc item : itemsOrdered)
-      item.printDisc();
+    for (Media item : itemsOrdered) {
+      item.printItem();
+    }
   }
 
-  public void sortCart() {
-    int m;
-    System.out.println("Enter input mode(1 for by title, 2 for category, 3 for cost): ");
-    m = sc.nextInt();
-    switch (m) {
-      case 1:
-        Collections.sort(itemsOrdered, new Comparator<DigitalVideoDisc>() {
-          @Override
-          public int compare(DigitalVideoDisc d1, DigitalVideoDisc d2) {
-            return d1.getTitle().compareTo(d2.getTitle());
-          }
-        });
-        break;
-
-      case 2:
-        Collections.sort(itemsOrdered, new Comparator<DigitalVideoDisc>() {
-          @Override
-          public int compare(DigitalVideoDisc d1, DigitalVideoDisc d2) {
+  public void sortByCategory(){
+    itemsOrdered.sort(new Comparator<Media>() {
+        @Override
+        public int compare(Media d1, Media d2) {
             return d1.getCategory().compareTo(d2.getCategory());
-          }
-        });
-        break;
-      default:
-        Collections.sort(itemsOrdered, new Comparator<DigitalVideoDisc>() {
-          @Override
-          public int compare(DigitalVideoDisc d1, DigitalVideoDisc d2) {
+        }
+    });
+  }
+
+  public void sortByTitle(){
+    itemsOrdered.sort(new Comparator<Media>() {
+        @Override
+        public int compare(Media d1, Media d2) {
+            return d1.getTitle().compareTo(d2.getTitle());
+        }
+    });
+  }
+
+  public void sortByPrice(){
+    itemsOrdered.sort(new Comparator<Media>() {
+        @Override
+        public int compare(Media d1, Media d2) {
             if (d1.getCost() < d2.getCost())
-              return -1;
+                return -1;
             return d1.getCost() > d2.getCost() ? 1 : 0;
-          }
-        });
-    }
+        }
+    });
   }
 
   private boolean checkIfListContains(ArrayList<String> arr, String s) {
@@ -93,17 +84,17 @@ public class Cart {
     return false;
   }
 
-  public List<DigitalVideoDisc> searchByTitle(String t) {
-    ArrayList<DigitalVideoDisc> list = new ArrayList<>();
-    for (DigitalVideoDisc item : itemsOrdered) {
+  public List<Media> searchByTitle(String t) {
+    ArrayList<Media> list = new ArrayList<>();
+    for (Media item : itemsOrdered) {
       if (item.getTitle().equals(t))
         list.add(item);
     }
     return list;
   }
 
-  public DigitalVideoDisc searchById(int i) {
-    for (DigitalVideoDisc item : itemsOrdered) {
+  public Media searchById(int i) {
+    for (Media item : itemsOrdered) {
       if (item.getId() == i)
         return item;
     }

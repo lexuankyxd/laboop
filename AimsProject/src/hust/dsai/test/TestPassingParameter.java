@@ -20,7 +20,7 @@ public class TestPassingParameter {
   public static void swap(DigitalVideoDisc o1, DigitalVideoDisc o2) {
     String title = o1.getTitle(), category = o1.getCategory(), director = o1.getDirector();
     int length = o1.getLength();
-    float cost = o1.getCost();
+    double cost = o1.getCost();
     o1.setTitle(o2.getTitle());
     o1.setCategory(o2.getCategory());
     o1.setDirector(o2.getDirector());

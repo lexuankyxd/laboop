@@ -1,6 +1,7 @@
 package hust.dsai.test;
 
 import hust.dsai.aims.media.DigitalVideoDisc;
+import hust.dsai.aims.media.Media;
 import hust.dsai.aims.store.Store;
 
 public class StoreTest {
@@ -13,10 +14,10 @@ public class StoreTest {
     store.addToStore(dvd2);
     DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
     store.addToStore(dvd3);
-    for (DigitalVideoDisc disc : store.itemsInStore)
-      disc.printDisc();
+    for (Media item : store.itemsInStore)
+      item.printItem();
     store.removeFromStore(dvd2);
-    for (DigitalVideoDisc disc : store.itemsInStore)
-      disc.printDisc();
+    for (Media item : store.itemsInStore)
+      item.printItem();
   }
 }

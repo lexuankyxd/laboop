@@ -42,4 +42,8 @@ public abstract class Media {
     public int getCnt(){
         return cnt++;
     }
+
+    public void printItem(){
+        System.out.println("Title: " + getTitle() + "\nCategory: " + getCategory() + "\nCost: " + getCost() + "\nId: " + this.id);
+    }
 }
