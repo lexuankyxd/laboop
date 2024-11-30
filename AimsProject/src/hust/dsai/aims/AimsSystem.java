@@ -2,7 +2,7 @@ package hust.dsai.aims;
 
 import hust.dsai.aims.admin.AdminUser;
 import hust.dsai.aims.customer.CustomerUser;
-import hust.dsai.aims.disc.DigitalVideoDisc;
+import hust.dsai.aims.media.DigitalVideoDisc;
 import hust.dsai.aims.order.Order;
 import hust.dsai.aims.transaction.Transaction;
 

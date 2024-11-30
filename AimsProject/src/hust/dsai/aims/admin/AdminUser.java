@@ -1,7 +1,7 @@
 package hust.dsai.aims.admin;
 
 import hust.dsai.aims.AimsSystem;
-import hust.dsai.aims.disc.DigitalVideoDisc;
+import hust.dsai.aims.media.DigitalVideoDisc;
 import hust.dsai.aims.order.Order;
 
 import java.util.Scanner;

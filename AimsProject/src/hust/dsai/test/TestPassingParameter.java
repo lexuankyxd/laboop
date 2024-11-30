@@ -1,6 +1,6 @@
 package hust.dsai.test;
 
-import hust.dsai.aims.disc.DigitalVideoDisc;
+import hust.dsai.aims.media.DigitalVideoDisc;
 
 public class TestPassingParameter {
 

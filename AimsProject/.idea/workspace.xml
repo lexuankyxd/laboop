@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="810611ea-3070-4eb9-941e-97e4762c2a60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/CompactDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/DigitalVideoDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Disc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/AimsSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/AimsSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/admin/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/admin/AdminUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/disc/DigitalVideoDisc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/test/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/test/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/test/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/test/TestPassingParameter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +61,7 @@
     "Application.src/AimsSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/demonstrate-release-flow",
+    "git-widget-placeholder": "topic/aims-project/add-media-class",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/g0dz/schoolsj/java/lab/AimsProject/src",
     "node.js.detected.package.eslint": "true",
@@ -58,6 +72,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -109,6 +124,7 @@
       <workItem from="1732461276043" duration="866000" />
       <workItem from="1732462272204" duration="545000" />
       <workItem from="1732462820852" duration="4596000" />
+      <workItem from="1732946107447" duration="2196000" />
     </task>
     <servers />
   </component>

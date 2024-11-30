@@ -1,6 +1,6 @@
 package hust.dsai.aims.cart;
 
-import hust.dsai.aims.disc.DigitalVideoDisc;
+import hust.dsai.aims.media.DigitalVideoDisc;
 
 import java.util.*;
 

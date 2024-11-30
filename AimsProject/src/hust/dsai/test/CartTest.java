@@ -1,7 +1,7 @@
 package hust.dsai.test;
 
 import hust.dsai.aims.cart.Cart;
-import hust.dsai.aims.disc.DigitalVideoDisc;
+import hust.dsai.aims.media.DigitalVideoDisc;
 
 public class CartTest {
   public static void main(String[] args) {
