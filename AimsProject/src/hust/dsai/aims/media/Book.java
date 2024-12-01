@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Book extends Media{
     private final ArrayList<String> authors = new ArrayList<>();
 
-    Book(String title, String author, String category, double cost) {
+    public Book(String title, String author, String category, double cost) {
         super();
         setId(getCnt());
         setTitle(title);
@@ -14,9 +14,9 @@ public class Book extends Media{
         setCost(cost);
     }
 
-    Book(int id, String title, ArrayList<String> authors, String category, double cost) {
+    Book(String title, ArrayList<String> authors, String category, double cost) {
         super();
-        setId(id);
+        setId(getCnt());
         setTitle(title);
         this.authors.addAll(authors);
         setCategory(category);
@@ -39,4 +39,11 @@ public class Book extends Media{
         this.authors.remove(author);
     }
 
+    @Override
+    public String toString() {
+        String list_of_authors = String.join(", ", authors);
+        return "Book{" +
+                "authors=" + authors +
+                '}';
+    }
 }

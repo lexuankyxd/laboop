@@ -2,6 +2,7 @@ package hust.dsai.aims.admin;
 
 import hust.dsai.aims.AimsSystem;
 import hust.dsai.aims.media.DigitalVideoDisc;
+import hust.dsai.aims.media.Media;
 import hust.dsai.aims.order.Order;
 
 import java.util.Scanner;
@@ -39,11 +40,11 @@ public class AdminUser {
     item.setCost(sc.nextFloat());
     System.out.println("Enter dvd length: ");
     item.setLength(sc.nextInt());
-    AimsSystem.dvdCollection.add(item);
+    AimsSystem.store.itemsInStore.add(item);
   }
 
-  public void removeItem(DigitalVideoDisc item) {
-    AimsSystem.dvdCollection.remove(item);
+  public void removeItem(Media item) {
+    AimsSystem.store.itemsInStore.remove(item);
   }
 
   public void logout() {

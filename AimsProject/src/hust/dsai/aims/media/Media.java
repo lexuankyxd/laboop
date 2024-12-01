@@ -1,6 +1,12 @@
 package hust.dsai.aims.media;
 
-public abstract class Media {
+import java.util.Comparator;
+
+public abstract class Media implements Comparable<Media>{
+
+    public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();
+    public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCostTitle();
+
     private int id;
     private String title;
     private String category;
@@ -46,4 +52,20 @@ public abstract class Media {
     public void printItem(){
         System.out.println("Title: " + getTitle() + "\nCategory: " + getCategory() + "\nCost: " + getCost() + "\nId: " + this.id);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj instanceof Media){
+            Media m = (Media)obj;
+            return m.getTitle().equals(title);
+        }
+        return false;
+    }
+
+    @Override
+    public int compareTo(Media o) {
+        return title.compareTo(o.getTitle());
+    }
+
+    public abstract String toString();
 }

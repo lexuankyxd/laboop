@@ -31,7 +31,7 @@ public class CustomerUser {
   public void placeOrder() {
     if (!informationAdded)
       addShipingInformation();
-    if (cart.itemsOrdered.size() >= 1) {
+    if (!cart.itemsOrdered.isEmpty()) {
       order = new Order(this, 0);
       AimsSystem.unprocessedOrder.add(order);
     }

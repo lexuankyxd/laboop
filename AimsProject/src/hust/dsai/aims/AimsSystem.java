@@ -2,14 +2,15 @@ package hust.dsai.aims;
 
 import hust.dsai.aims.admin.AdminUser;
 import hust.dsai.aims.customer.CustomerUser;
-import hust.dsai.aims.media.DigitalVideoDisc;
+import hust.dsai.aims.media.*;
 import hust.dsai.aims.order.Order;
+import hust.dsai.aims.store.Store;
 import hust.dsai.aims.transaction.Transaction;
 
 import java.util.*;
 
 public class AimsSystem {
-  public static List<DigitalVideoDisc> dvdCollection = new ArrayList<>();
+  public static Store store = new Store();
   public static List<Order> unprocessedOrder = new ArrayList<>();
   public static List<Order> processedOrder = new ArrayList<>();
   public static List<Transaction> unprocessedTransactions = new ArrayList<>();
@@ -37,30 +38,30 @@ public class AimsSystem {
     m = sc.nextInt();
     switch (m) {
       case 1:
-        Collections.sort(dvdCollection, new Comparator<>() {
+        store.itemsInStore.sort(new Comparator<>() {
             @Override
-            public int compare(DigitalVideoDisc d1, DigitalVideoDisc d2) {
+            public int compare(Media d1, Media d2) {
                 return d1.getTitle().compareTo(d2.getTitle());
             }
         });
         break;
 
       case 2:
-        Collections.sort(dvdCollection, new Comparator<DigitalVideoDisc>() {
-          @Override
-          public int compare(DigitalVideoDisc d1, DigitalVideoDisc d2) {
-            return d1.getCategory().compareTo(d2.getCategory());
-          }
+        store.itemsInStore.sort(new Comparator<>() {
+            @Override
+            public int compare(Media d1, Media d2) {
+                return d1.getCategory().compareTo(d2.getCategory());
+            }
         });
         break;
       default:
-        Collections.sort(dvdCollection, new Comparator<DigitalVideoDisc>() {
-          @Override
-          public int compare(DigitalVideoDisc d1, DigitalVideoDisc d2) {
-            if (d1.getCost() < d2.getCost())
-              return -1;
-            return d1.getCost() > d2.getCost() ? 1 : 0;
-          }
+        store.itemsInStore.sort(new Comparator<>() {
+            @Override
+            public int compare(Media d1, Media d2) {
+                if (d1.getCost() < d2.getCost())
+                    return -1;
+                return d1.getCost() > d2.getCost() ? 1 : 0;
+            }
         });
     }
   }
@@ -72,8 +73,8 @@ public class AimsSystem {
     return false;
   }
 
-  public static List<DigitalVideoDisc> searchInCollection() {
-    List<DigitalVideoDisc> res = new ArrayList<>();
+  public static List<Media> searchInCollection() {
+    List<Media> res = new ArrayList<>();
     int m;
     System.out.println("Enter search mode(1 for title, 2 for category, 3 for cost range): ");
     m = sc.nextInt();
@@ -92,21 +93,21 @@ public class AimsSystem {
     }
     switch (m) {
       case 1:
-        for (DigitalVideoDisc item : dvdCollection) {
+        for (Media item : store.itemsInStore) {
           if (checkIfListContains(keywords, item.getTitle())) {
             res.add(item);
           }
         }
         break;
       case 2:
-        for (DigitalVideoDisc item : dvdCollection) {
+        for (Media item : store.itemsInStore) {
           if (checkIfListContains(keywords, item.getCategory())) {
             res.add(item);
           }
         }
         break;
       default:
-        for (DigitalVideoDisc item : dvdCollection) {
+        for (Media item : store.itemsInStore) {
           if (c1 <= item.getCost() && item.getCost() <= c2)
             res.add(item);
         }
@@ -152,9 +153,9 @@ public class AimsSystem {
               admin.addItem();
               break;
             case 4:
-              System.out.println("Enter a number from 0 to " + (dvdCollection.size() - 1) + " to remove");
+              System.out.println("Enter a number from 0 to " + (store.itemsInStore.size() - 1) + " to remove");
               m = sc.nextInt();
-              admin.removeItem(dvdCollection.get(m));
+              admin.removeItem(store.itemsInStore.get(m));
               break;
             case 5:
               admin.logout();
@@ -185,39 +186,41 @@ public class AimsSystem {
           sc.nextLine();
           switch (m) {
             case 1:
-              for (DigitalVideoDisc item : dvdCollection) {
-                item.printDisc();
+              for (Media item : store.itemsInStore) {
+                item.printItem();
               }
               break;
             case 2:
-              List<DigitalVideoDisc> l = searchInCollection();
-              for (DigitalVideoDisc item : l) {
-                item.printDisc();
+              List<Media> l = searchInCollection();
+              for (Media item : l) {
+                item.printItem();
               }
               break;
             case 3:
-              System.out.println("Select a number from 0 " + (dvdCollection.size() - 1) + " to play demo");
+              System.out.println("Select a number from 0 " + (store.itemsInStore.size() - 1) + " to play demo");
               m = sc.nextInt();
-              dvdCollection.get(m).playDemo();
+              if(store.itemsInStore.get(m) instanceof DigitalVideoDisc || store.itemsInStore.get(m) instanceof CompactDisc)
+                ((Playable)store.itemsInStore.get(m)).play();
+              else System.out.println("not a playable item");
               break;
             case 4:
-              System.out.println("Select a number from 0 " + (dvdCollection.size() - 1) + " to display details");
+              System.out.println("Select a number from 0 " + (store.itemsInStore.size() - 1) + " to display details");
               m = sc.nextInt();
-              dvdCollection.get(m).printDisc();
+              store.itemsInStore.get(m).printItem();
               break;
             case 5:
               System.out.println("Select a number from 0 " + (user.cart.itemsOrdered.size() - 1) + " to add to cart");
               m = sc.nextInt();
-              user.cart.addDigitalVideoDisc(dvdCollection.get(m));
+              user.cart.addMedia(store.itemsInStore.get(m));
               break;
             case 6:
               System.out
                   .println("Select a number from 0 " + (user.cart.itemsOrdered.size() - 1) + " to remove from cart");
               m = sc.nextInt();
-              user.cart.removeDigitalVideoDisc(user.cart.itemsOrdered.get(m));
+              user.cart.removeMedia(user.cart.itemsOrdered.get(m));
               break;
             case 7:
-              user.cart.sortCart();
+              user.cart.sortByTitle();
               break;
             case 8:
               user.cart.printCart();

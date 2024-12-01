@@ -1,6 +1,6 @@
 package hust.dsai.aims.media;
 
-public class Disc extends  Media{
+public abstract class Disc extends  Media{
     private String director = "NULL";
     private int length = 0;
 
@@ -20,4 +20,5 @@ public class Disc extends  Media{
         this.director = director;
     }
 
+    public abstract String toString();
 }

@@ -78,6 +78,8 @@ public class Cart {
     });
   }
 
+
+
   private boolean checkIfListContains(ArrayList<String> arr, String s) {
     for (String str : arr)
       if (s.contains(str))
