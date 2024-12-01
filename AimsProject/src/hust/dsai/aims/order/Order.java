@@ -14,7 +14,7 @@ public class Order {
     this.user = user;
     this.ord_id = id;
     this.status = false;
-    this.shippingCost = AimsSystem.calculateShippingCost(this);
+    this.shippingCost = 1f;
     totalCost = user.cart.total * 1.1 + shippingCost;
   }
 

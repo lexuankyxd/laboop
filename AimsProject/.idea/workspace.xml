@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="810611ea-3070-4eb9-941e-97e4762c2a60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/MediaComparatorByCostTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/MediaComparatorByTitleCost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hust/dsai/test/PolimorphismTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/AimsSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/AimsSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/admin/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/admin/AdminUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/customer/CustomerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/customer/CustomerUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/CompactDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/CompactDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Disc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Disc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Media.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/transaction/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +66,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -130,7 +120,7 @@
       <workItem from="1732462820852" duration="4596000" />
       <workItem from="1732946107447" duration="7506000" />
       <workItem from="1733043126622" duration="15000" />
-      <workItem from="1733063249553" duration="7062000" />
+      <workItem from="1733063249553" duration="12191000" />
     </task>
     <servers />
   </component>
@@ -139,5 +129,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

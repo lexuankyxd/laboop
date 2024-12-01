@@ -16,6 +16,7 @@ public class Cart {
 
   public void addMedia(Media item) {
     itemsOrdered.add(item);
+    System.out.println("The cart now has " + itemsOrdered.stream().filter(m -> m == item).count() + " of " + item.getTitle());
     System.out.println("The cart now has " + itemsOrdered.size() + " items.");
   }
 
@@ -88,12 +89,7 @@ public class Cart {
   }
 
   public List<Media> searchByTitle(String t) {
-    ArrayList<Media> list = new ArrayList<>();
-    for (Media item : itemsOrdered) {
-      if (item.getTitle().equals(t))
-        list.add(item);
-    }
-    return list;
+    return itemsOrdered.stream().filter(m -> m.getTitle().contains(t.toLowerCase())).toList();
   }
 
   public Media searchById(int i) {

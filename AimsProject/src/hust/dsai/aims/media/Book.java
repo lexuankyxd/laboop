@@ -14,7 +14,7 @@ public class Book extends Media{
         setCost(cost);
     }
 
-    Book(String title, ArrayList<String> authors, String category, double cost) {
+    public Book(String title, ArrayList<String> authors, String category, double cost) {
         super();
         setId(getCnt());
         setTitle(title);
