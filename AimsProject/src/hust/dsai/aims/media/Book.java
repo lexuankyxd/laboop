@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class Book extends Media{
     private final ArrayList<String> authors = new ArrayList<>();
 
-    Book(int id, String title, String author, String category, double cost) {
+    Book(String title, String author, String category, double cost) {
         super();
-        setId(id);
+        setId(getCnt());
         setTitle(title);
         this.authors.add(author);
         setCategory(category);

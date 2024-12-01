@@ -30,15 +30,16 @@ public class Cart {
     System.out.println("The cart now has " + itemsOrdered.size() + " items.");
   }
 
-  public void removeDigitalVideoDisc(DigitalVideoDisc item) {
+  public void removeMedia(Media item) {
     itemsOrdered.remove(item);
     System.out.println("Removed item from cart.");
   }
 
-  public void totalCost() {
+  public double totalCost() {
     total = 0;
     for (Media item : this.itemsOrdered)
       total += item.getCost();
+    return total;
   }
 
   public void printCart() {

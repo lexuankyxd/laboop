@@ -1,12 +1,6 @@
 package hust.dsai.aims.media;
 
-/**
- * hust.dsai.aims.media.DigitalVideoDisc
- */
-
 public class DigitalVideoDisc extends Disc implements Playable {
-
-
 
   public DigitalVideoDisc() {
   super();
