@@ -5,12 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="810611ea-3070-4eb9-941e-97e4762c2a60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/AimsSystemScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/AimsSystemScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/CartScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/CartScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/MediaScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/OldStoreScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/StoreScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/StoreScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/fxml/aims.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/fxml/cart.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/aims/screen/fxml/store.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/javafx/Painter.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/javafx/Painter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/javafx/PainterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/swing/AWTAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/swing/NumberGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/swing/SwingAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hust/dsai/test/AimsSystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/AimsSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/AimsSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AimsProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AimsProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/customer/CustomerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/customer/CustomerUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/media/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/media/Media.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hust/dsai/aims/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/aims/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/test/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hust/dsai/test/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/dsai/test/StoreTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -43,38 +67,53 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AWTAccumulator.executor": "Run",
+    "Application.Aims System UI Test.executor": "Run",
     "Application.AimsSystem.executor": "Run",
+    "Application.Cart Test.executor": "Run",
+    "Application.CartScreen.executor": "Run",
     "Application.CartTest.executor": "Run",
     "Application.ConcatenationInLoops.executor": "Run",
     "Application.GarbageCollector.executor": "Run",
     "Application.NoGarbage.executor": "Run",
+    "Application.NumberGrid.executor": "Run",
+    "Application.Painter.executor": "Run",
     "Application.PolimorphismTest.executor": "Run",
     "Application.StoreTest.executor": "Run",
     "Application.TestPassingParameter.executor": "Debug",
     "Application.src/AimsSystem.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "topic/aims-project/cart-and-store-media-compatible-update",
+    "git-widget-placeholder": "topic/aims-project/added-uis-lab4-final-ver",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/g0dz/schoolsj/java/lab/AimsProject/src",
+    "last_opened_file_path": "/opt/scenebuilder/bin/SceneBuilder",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hust.dsai.aims.screen" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/hust/dsai/aims/screen/fxml" />
       <recent name="$PROJECT_DIR$/src/hust/dsai/dsai/garbage" />
       <recent name="$PROJECT_DIR$/none-code-stuff/screenshot" />
       <recent name="$PROJECT_DIR$/src" />
@@ -87,22 +126,76 @@
       <recent name="hust.dsai.aims.CardSystem" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Aims System UI Test">
+    <configuration name="AWTAccumulator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.dsai.swing.AWTAccumulator" />
+      <module name="AimsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.dsai.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aims System UI Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hust.dsai.test.AimsSystemTest" />
+      <module name="AimsProject" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/openjfx-21.0.5_linux-x64_bin-sdk/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml,javafx.web,javafx.media,javafx.swing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.dsai.aims.screen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AimsSystem" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="22" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="hust.dsai.aims.AimsSystem" />
       <module name="AimsProject" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/openjfx-21.0.5_linux-x64_bin-sdk/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Painter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hust.dsai.javafx.Painter" />
+      <module name="AimsProject" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/openjfx-21.0.5_linux-x64_bin-sdk/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hust.dsai.javafx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AimsSystem" />
+      <item itemvalue="Application.AWTAccumulator" />
+      <item itemvalue="Application.Aims System UI Test" />
+      <item itemvalue="Application.Painter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aims System UI Test" />
+        <item itemvalue="Application.Painter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -120,7 +213,13 @@
       <workItem from="1732462820852" duration="4596000" />
       <workItem from="1732946107447" duration="7506000" />
       <workItem from="1733043126622" duration="15000" />
-      <workItem from="1733063249553" duration="12191000" />
+      <workItem from="1733063249553" duration="12828000" />
+      <workItem from="1733150353383" duration="4000" />
+      <workItem from="1733291947086" duration="47000" />
+      <workItem from="1734155084436" duration="6606000" />
+      <workItem from="1734335898642" duration="4610000" />
+      <workItem from="1734406602488" duration="20223000" />
+      <workItem from="1734505915505" duration="12161000" />
     </task>
     <servers />
   </component>

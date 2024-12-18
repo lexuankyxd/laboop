@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="javafx">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/openjfx-21.0.5_linux-x64_bin-sdk/javafx-sdk-21.0.5/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$USER_HOME$/Downloads/openjfx-21.0.5_linux-x64_bin-sdk/javafx-sdk-21.0.5/lib" />
+    </NATIVE>
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/openjfx-21.0.5_linux-x64_bin-sdk/javafx-sdk-21.0.5/lib" recursive="false" />
+  </library>
+</component>

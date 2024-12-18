@@ -2,6 +2,8 @@ package hust.dsai.aims.cart;
 
 import hust.dsai.aims.media.DigitalVideoDisc;
 import hust.dsai.aims.media.Media;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import java.util.*;
 
@@ -12,8 +14,7 @@ public class Cart {
   public double total;
   Scanner sc = new Scanner(System.in);
 
-  public final List<Media> itemsOrdered = new ArrayList<>();
-
+  public final ObservableList<Media> itemsOrdered = FXCollections.observableArrayList();
   public void addMedia(Media item) {
     itemsOrdered.add(item);
     System.out.println("The cart now has " + itemsOrdered.stream().filter(m -> m == item).count() + " of " + item.getTitle());
@@ -40,6 +41,7 @@ public class Cart {
     total = 0;
     for (Media item : this.itemsOrdered)
       total += item.getCost();
+    total = (double) Math.round(total * 100) / 100;
     return total;
   }
 
