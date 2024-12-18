@@ -5,6 +5,7 @@ import hust.dsai.aims.order.Order;
 import hust.dsai.aims.transaction.Transaction;
 import hust.dsai.aims.cart.Cart;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 public class CustomerUser {
   private Scanner console = AimsSystem.sc;
@@ -12,7 +13,7 @@ public class CustomerUser {
   String email;
   String pnumber;
   String name;
-  Order order = null;
+  ArrayList<Order> orders = new ArrayList<>();
   Boolean informationAdded = false;
   public Cart cart = new Cart();
 
@@ -30,14 +31,19 @@ public class CustomerUser {
 
   public void placeOrder() {
     if (!informationAdded)
-      addShipingInformation();
+      //addShipingInformation();
+      // TODO shipping info shit
     if (!cart.itemsOrdered.isEmpty()) {
-      order = new Order(this, 0);
-      AimsSystem.unprocessedOrder.add(order);
+      try {
+        orders.add(new Order(this, this.cart.itemsOrdered.stream().toList()));
+        AimsSystem.unprocessedOrder.add(orders.getLast());
+      } catch (Exception e) {
+        throw new RuntimeException(e);
+      }
     }
   }
 
-  public void payForOrder() {
+  public void payForOrder(Order order) {
     if (order != null) {
       if (!order.status) {
         System.out.println("hust.dsai.aims.order.Order not yet accepted, wait for admin to accept");

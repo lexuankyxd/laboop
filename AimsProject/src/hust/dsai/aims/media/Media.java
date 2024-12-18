@@ -38,7 +38,7 @@ public abstract class Media implements Comparable<Media>{
     }
 
     public double getCost() {
-        return cost;
+        return (double) Math.round(cost* 100) / 100;
     }
 
     public void setCost(double cost) {
@@ -55,9 +55,8 @@ public abstract class Media implements Comparable<Media>{
 
     @Override
     public boolean equals(Object obj) {
-        if(obj instanceof Media){
-            Media m = (Media)obj;
-            return m.getTitle().equals(title);
+        if(obj instanceof Media m){
+          return m.getTitle().equals(title);
         }
         return false;
     }

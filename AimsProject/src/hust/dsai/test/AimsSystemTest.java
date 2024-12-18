@@ -1,10 +1,14 @@
 package hust.dsai.test;
 
+import hust.dsai.aims.AimsSystem;
+import hust.dsai.aims.customer.CustomerUser;
 import hust.dsai.aims.media.DigitalVideoDisc;
-import hust.dsai.aims.screen.OldStoreScreen;
+import hust.dsai.aims.screen.AimsSystemScreen;
 import hust.dsai.aims.store.Store;
 
-public class StoreTest {
+import javax.swing.*;
+
+public class AimsSystemTest {
   public static void main(String[] args) {
     Store store = new Store();
     // Create new dvd objects and add them to the cart
@@ -14,6 +18,12 @@ public class StoreTest {
     store.addToStore(dvd2);
     DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
     store.addToStore(dvd3);
-    OldStoreScreen storeScreen = new OldStoreScreen(store);
+
+    CustomerUser user = new CustomerUser();
+    user.cart.addMedia(dvd1);
+    SwingUtilities.invokeLater(() -> {
+      AimsSystemScreen aimsSystem = new AimsSystemScreen(store, user);
+      aimsSystem.setVisible(true);
+    });
   }
 }
